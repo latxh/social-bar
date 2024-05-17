@@ -41,8 +41,8 @@ body {
 
 #dark-mode {
     position: absolute;
-    bottom: 12px;
-    right: 12px;
+    top: 20px;
+    right: 20px;
     height: 60px;
     width: 60px;
     background-color: var(--theme-toggle);
