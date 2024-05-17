@@ -8,7 +8,7 @@
 
 .image {
     background-color: var(--placeholder);
-    border-radius: 12px;
+    border-radius: 8px;
     aspect-ratio: 1.91/1;
     width: 100%;
 }
