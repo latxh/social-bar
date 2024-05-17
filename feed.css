@@ -1,0 +1,86 @@
+.card-1u {
+    border-bottom: 1px solid var(--card-border);
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.image {
+    background-color: var(--placeholder);
+    border-radius: 12px;
+    aspect-ratio: 1.91/1;
+    width: 100%;
+}
+
+.like-button {
+    color: var(--font-1);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.attribution {
+    display: flex;
+    gap: 6px;
+}
+
+.publisher-icon {
+    background-color: var(--placeholder);
+    border-radius: 2px;
+    height: 16px;
+    width: 16px;
+}
+
+.publisher-text {
+    color: var(--font-1);
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.article-text {
+    color: var(--font-1);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    height: 2lh;
+    /* text-wrap: balance; */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+
+/* 0.5U Card */
+
+.card-5u {
+    padding-top: 14px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.card-top {
+    display: flex;
+    gap: 8px;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-5u .article-text {
+    height: 3lh;
+    -webkit-line-clamp: 3;
+}
+
+.card-5u .image {
+    margin-bottom: 8px;
+    min-width: 140px;
+}
