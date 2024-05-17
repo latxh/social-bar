@@ -23,7 +23,7 @@
     gap: 0px;
     border-radius: 50px;
     /* background-color: wheat; */
-    border: 1px solid grey;
+    border: 1px solid #f5f5f5;
 }
 
 .vote-wrapper button {
@@ -51,7 +51,7 @@ button {
     height: 100%;
     border-radius: 50px;
     padding: 6px 12px;
-    border: 1px solid grey;
+    border: 1px solid #f5f5f5;
     background-color: transparent;
     transition: background-color 0.2s;
 }
@@ -65,7 +65,7 @@ button svg {
 } */
 
 button:focus-visible {
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
 }
 
 button:not(:active):focus-visible {
@@ -74,11 +74,12 @@ button:not(:active):focus-visible {
 
 button:not(:active) {
     /* now keep red background for 1s */
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 button:active {
-    background: lightblue;
+    background: #E0EDFF;
+    border-color: #c4c4c4;
 }
 
 @media (prefers-reduced-motion: no-preference) {
