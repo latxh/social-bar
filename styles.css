@@ -58,6 +58,10 @@ button {
     transition: background-color 0.2s;
 }
 
+span {
+    user-select: none;
+}
+
 button svg {
     transition: all 0.2s;
 }
