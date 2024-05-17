@@ -34,7 +34,7 @@
     height: 18px;
     width: 2px;
     border-radius: 12px;
-    background-color: #000;
+    background-color: #f5f5f5;
 }
 
 .like {
@@ -43,6 +43,7 @@
 }
 
 button {
+    touch-action: manipulation;
     user-select: none;
     cursor: pointer;
     display: flex;
@@ -66,6 +67,7 @@ button svg {
 
 button:focus-visible {
     /* outline: 2px solid green; */
+    outline: none;
 }
 
 button:not(:active):focus-visible {
