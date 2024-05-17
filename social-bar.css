@@ -89,7 +89,6 @@ button:active {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .underline:focus-visible span,
     a:focus-visible,
     button:focus-visible {
       transition: outline-offset 0.075s ease-out;

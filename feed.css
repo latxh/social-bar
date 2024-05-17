@@ -13,9 +13,9 @@
     width: 100%;
 }
 
-.like-button {
+.like-counter {
     color: var(--font-1);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     margin: 0;
 }
@@ -34,7 +34,7 @@
 
 .publisher-text {
     color: var(--font-1);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     margin: 0;
 }
