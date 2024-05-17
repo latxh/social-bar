@@ -1,0 +1,98 @@
+.social-bar {
+    width: 100%;
+    max-width: 620px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.vote-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+    border-radius: 50px;
+    /* background-color: wheat; */
+    border: 1px solid grey;
+}
+
+.vote-wrapper button {
+    border: none;
+}
+
+.vote-break {
+    height: 18px;
+    width: 2px;
+    border-radius: 12px;
+    background-color: #000;
+}
+
+.like {
+    display: flex;
+    gap: 2px;
+}
+
+button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 50px;
+    padding: 6px 12px;
+    border: 1px solid grey;
+    background-color: transparent;
+    transition: background-color 0.2s;
+}
+
+button svg {
+    transition: all 0.2s;
+}
+  
+/* button:hover {
+    background-color: blue;
+} */
+
+button:focus-visible {
+    outline: 2px solid green;
+}
+
+button:not(:active):focus-visible {
+    outline-offset: 0.3rem;
+}
+
+button:not(:active) {
+    /* now keep red background for 1s */
+    transition: all 0.2s ease-in-out;
+}
+
+button:active {
+    background: lightblue;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .underline:focus-visible span,
+    a:focus-visible,
+    button:focus-visible {
+      transition: outline-offset 0.075s ease-out;
+    }
+  
+    a:not(:active):focus-visible,
+    button:not(:active):focus-visible {
+      transition-duration: 0.2s;
+    }
+  
+    button:active svg {
+      transform: scale(0.8);
+    }
+}
