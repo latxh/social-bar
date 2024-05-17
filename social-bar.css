@@ -27,7 +27,7 @@
 }
 
 .vote-wrapper button {
-    border: none;
+    border: 1px solid transparent;
 }
 
 .vote-break {
@@ -40,6 +40,12 @@
 .like {
     display: flex;
     gap: 2px;
+}
+
+.outline {
+    fill: transparent;
+    stroke: #000;
+    stroke-width: 1.5px;
 }
 
 button {
@@ -100,5 +106,9 @@ button:active {
   
     button:active svg {
       transform: scale(0.8);
+    }
+
+    .like:active svg {
+      transform: rotate(-10deg) translateY(-4px);
     }
 }
